@@ -14,12 +14,8 @@
   "author": "Boyuan Zhu",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
     "cookie-session": "^2.0.0-beta.3",
     "express": "^4.16.4",
-=======
-    "express": "^4.15.3",
->>>>>>> ab5744f8d0388ace5647e728836dcd8d66d7c7d2
     "mongoose": "^5.4.13",
     "nodemon": "^1.18.10",
     "passport": "^0.4.0",
