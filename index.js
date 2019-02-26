@@ -6,7 +6,9 @@ const passport = require("passport");
 require("./models/User");
 require("./services/passport");
 
-mongoose.connect(keys.mongoURI, { useNewUrlParser: true });
+mongoose.connect(keys.mongoURI, {
+  useMongoClient: true
+});
 const app = express();
 app.use(
   cookieSession({
